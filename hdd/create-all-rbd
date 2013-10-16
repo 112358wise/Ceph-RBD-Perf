@@ -1,0 +1,9 @@
+rbd create rbd-image0 --size 32768
+rbd create rbd-image1 --size 32768
+rbd create rbd-image2 --size 32768
+
+rbd map rbd/rbd-image0
+rbd map rbd/rbd-image1
+rbd map rbd/rbd-image2
+
+

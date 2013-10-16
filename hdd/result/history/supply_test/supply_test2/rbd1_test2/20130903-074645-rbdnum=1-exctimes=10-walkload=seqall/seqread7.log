@@ -1,0 +1,29 @@
+start seqread
+filename = /dev/rbd0
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+randread: (groupid=0, jobs=64): err= 0: pid=41112
+  read : io=1115.9MB, bw=9514.9KB/s, iops=2378 , runt=120089msec
+    clat (usec): min=427 , max=2818.1K, avg=26888.46, stdev=89229.87
+     lat (usec): min=427 , max=2818.1K, avg=26888.80, stdev=89229.88
+    bw (KB/s) : min=    2, max= 3352, per=1.77%, avg=168.17, stdev=194.50
+  cpu          : usr=0.03%, sys=0.16%, ctx=286402, majf=0, minf=2115
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=285658/0/0, short=0/0/0
+     lat (usec): 500=0.02%, 750=8.31%, 1000=17.31%
+     lat (msec): 2=17.09%, 4=1.45%, 10=0.72%, 20=45.72%, 50=2.33%
+     lat (msec): 100=1.38%, 250=3.03%, 500=1.91%, 750=0.44%, 1000=0.14%
+     lat (msec): 2000=0.13%, >=2000=0.01%
+
+Run status group 0 (all jobs):
+   READ: io=1115.9MB, aggrb=9514KB/s, minb=9743KB/s, maxb=9743KB/s, mint=120089msec, maxt=120089msec
+
+Disk stats (read/write):
+  rbd0: ios=267413/0, merge=8363/0, ticks=5360168/0, in_queue=5378280, util=99.92%
+finish seqread

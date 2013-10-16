@@ -1,0 +1,41 @@
+set -x
+rbd create rbd-image0 --size 32768
+#rbd create rbd-image1 --size 32768
+#
+rbd map rbd/rbd-image0
+#rbd map rbd/rbd-image1
+
+#/test/hdd/create-all-rbd
+dd if=/dev/zero of=/dev/rbd0 bs=4M count=8192 
+#&& dd if=/dev/zero of=/dev/rbd1 bs=4M count=8192
+
+mkdir /test/hdd/result/rbd1_test0
+mkdir /test/hdd/result/rbd1_test1
+mkdir /test/hdd/result/rbd1_test2
+mkdir /test/hdd/result/rbd2_test0
+mkdir /test/hdd/result/rbd2_test1
+mkdir /test/hdd/result/rbd2_test2
+
+
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test0 -w seqall && 
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test0 -w randall
+
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test1 -w seqall && 
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test1 -w randall
+
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test2 -w seqall && 
+/test/hdd/rbdtest.sh -r 1 -t 3 -o result/rbd1_test2 -w randall
+
+
+
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o result/rbd2_test0 -w seqall && 
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o result/rbd2_test0 -w randall
+#
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o result/rbd2_test1 -w seqall &&
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o result/rbd2_test1 -w randall
+#
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o result/rbd2_test2 -w seqall && 
+#/test/hdd/rbdtest.sh -r 2 -t 3 -o /result/rbd2_test2 -w randall
+#
+set +x
+

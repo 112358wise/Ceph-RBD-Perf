@@ -1,0 +1,116 @@
+start randread
+start randread
+filename = /dev/rbd0
+filename = /dev/rbd1
+start randread
+filename = /dev/rbd2
+start randread
+filename = /dev/rbd3
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=randread, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+randread: (groupid=0, jobs=64): err= 0: pid=57546
+  read : io=68176KB, bw=568373 B/s, iops=138 , runt=122828msec
+    clat (usec): min=676 , max=8584.6K, avg=455414.53, stdev=1306952.88
+     lat (usec): min=676 , max=8584.6K, avg=455414.83, stdev=1306952.88
+    bw (KB/s) : min=    0, max=  267, per=4.36%, avg=24.21, stdev=38.17
+  cpu          : usr=0.00%, sys=0.01%, ctx=17051, majf=0, minf=1983
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=17044/0/0, short=0/0/0
+     lat (usec): 750=0.01%, 1000=21.32%
+     lat (msec): 2=9.21%, 4=0.35%, 10=2.84%, 20=13.04%, 50=21.20%
+     lat (msec): 100=10.95%, 250=6.76%, 500=3.04%, 750=0.93%, 1000=0.40%
+     lat (msec): 2000=1.50%, >=2000=8.44%
+
+Run status group 0 (all jobs):
+   READ: io=68176KB, aggrb=555KB/s, minb=568KB/s, maxb=568KB/s, mint=122828msec, maxt=122828msec
+
+Disk stats (read/write):
+  rbd0: ios=17040/0, merge=0/0, ticks=7749832/0, in_queue=7761124, util=99.88%
+finish randread
+
+randread: (groupid=0, jobs=64): err= 0: pid=57562
+  read : io=131416KB, bw=1070.3KB/s, iops=267 , runt=122795msec
+    clat (usec): min=429 , max=5908.5K, avg=236510.22, stdev=926679.90
+     lat (usec): min=429 , max=5908.5K, avg=236510.50, stdev=926679.91
+    bw (KB/s) : min=    0, max=  561, per=4.01%, avg=42.89, stdev=71.37
+  cpu          : usr=0.00%, sys=0.02%, ctx=32927, majf=0, minf=1983
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=32854/0/0, short=0/0/0
+     lat (usec): 500=0.01%, 750=5.92%, 1000=36.04%
+     lat (msec): 2=10.66%, 4=2.54%, 10=5.78%, 20=9.35%, 50=14.97%
+     lat (msec): 100=3.31%, 250=2.83%, 500=1.54%, 750=1.00%, 1000=0.49%
+     lat (msec): 2000=1.13%, >=2000=4.43%
+
+Run status group 0 (all jobs):
+   READ: io=131416KB, aggrb=1070KB/s, minb=1095KB/s, maxb=1095KB/s, mint=122795msec, maxt=122795msec
+
+Disk stats (read/write):
+  rbd3: ios=32838/0, merge=0/0, ticks=7722784/0, in_queue=7768324, util=99.89%
+finish randread
+
+randread: (groupid=0, jobs=64): err= 0: pid=57552
+  read : io=68784KB, bw=573811 B/s, iops=140 , runt=122749msec
+    clat (usec): min=749 , max=16470K, avg=450721.90, stdev=1459598.94
+     lat (usec): min=749 , max=16470K, avg=450722.21, stdev=1459598.95
+    bw (KB/s) : min=    0, max=  312, per=4.97%, avg=27.85, stdev=42.89
+  cpu          : usr=0.00%, sys=0.01%, ctx=17217, majf=0, minf=1983
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=17196/0/0, short=0/0/0
+     lat (usec): 750=0.01%, 1000=21.78%
+     lat (msec): 2=9.97%, 4=0.41%, 10=2.79%, 20=12.93%, 50=21.88%
+     lat (msec): 100=10.92%, 250=6.68%, 500=2.54%, 750=0.86%, 1000=0.44%
+     lat (msec): 2000=1.58%, >=2000=7.23%
+
+Run status group 0 (all jobs):
+   READ: io=68784KB, aggrb=560KB/s, minb=573KB/s, maxb=573KB/s, mint=122749msec, maxt=122749msec
+
+Disk stats (read/write):
+  rbd1: ios=17193/0, merge=0/0, ticks=7741528/0, in_queue=7749708, util=99.88%
+finish randread
+
+randread: (groupid=0, jobs=64): err= 0: pid=57559
+  read : io=96140KB, bw=801394 B/s, iops=195 , runt=122845msec
+    clat (usec): min=592 , max=5900.5K, avg=322595.00, stdev=1055354.61
+     lat (usec): min=593 , max=5900.5K, avg=322595.31, stdev=1055354.62
+    bw (KB/s) : min=    0, max=  320, per=3.75%, avg=29.31, stdev=44.43
+  cpu          : usr=0.00%, sys=0.01%, ctx=24049, majf=0, minf=2047
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=24035/0/0, short=0/0/0
+     lat (usec): 750=2.88%, 1000=27.71%
+     lat (msec): 2=9.53%, 4=0.87%, 10=3.86%, 20=11.75%, 50=17.90%
+     lat (msec): 100=8.08%, 250=5.62%, 500=2.36%, 750=1.02%, 1000=0.66%
+     lat (msec): 2000=1.79%, >=2000=5.98%
+
+Run status group 0 (all jobs):
+   READ: io=96140KB, aggrb=782KB/s, minb=801KB/s, maxb=801KB/s, mint=122845msec, maxt=122845msec
+
+Disk stats (read/write):
+  rbd2: ios=24031/0, merge=0/0, ticks=7741116/0, in_queue=7752492, util=99.88%
+finish randread

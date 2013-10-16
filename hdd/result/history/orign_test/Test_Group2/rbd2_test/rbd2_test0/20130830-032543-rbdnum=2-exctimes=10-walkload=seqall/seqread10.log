@@ -1,0 +1,908 @@
+start seqread
+filename = /dev/rbd0
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+fio: terminating on signal 2
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  rbd0: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=-nan%
+finish seqread
+start seqread
+filename = /dev/rbd1
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randread: (g=0): rw=read, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+fio: terminating on signal 2
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+fio: terminating on signal 15
+
+
+Run status group 0 (all jobs):
+
+Disk stats (read/write):
+  rbd1: ios=0/0, merge=0/0, ticks=0/0, in_queue=0, util=-nan%
+finish seqread

@@ -1,0 +1,57 @@
+start seqwrite
+filename = /dev/rbd0
+randwrite: (g=0): rw=write, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randwrite: (g=0): rw=write, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+randwrite: (groupid=0, jobs=64): err= 0: pid=122458
+  write: io=306040KB, bw=2548.9KB/s, iops=637 , runt=120073msec
+    clat (msec): min=3 , max=3737 , avg=100.43, stdev=203.13
+     lat (msec): min=3 , max=3737 , avg=100.43, stdev=203.13
+    bw (KB/s) : min=    1, max=  118, per=1.96%, avg=49.94, stdev=40.34
+  cpu          : usr=0.01%, sys=0.05%, ctx=76720, majf=0, minf=1987
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=0/76510/0, short=0/0/0
+
+     lat (msec): 4=0.01%, 10=0.04%, 20=0.10%, 50=70.00%, 100=16.94%
+     lat (msec): 250=0.89%, 500=9.14%, 750=1.33%, 1000=0.66%, 2000=0.69%
+     lat (msec): >=2000=0.21%
+
+Run status group 0 (all jobs):
+  WRITE: io=306040KB, aggrb=2548KB/s, minb=2609KB/s, maxb=2609KB/s, mint=120073msec, maxt=120073msec
+
+Disk stats (read/write):
+  rbd0: ios=168/76446, merge=0/0, ticks=148/7656916, in_queue=7668868, util=100.00%
+finish seqwrite
+start seqwrite
+filename = /dev/rbd1
+randwrite: (g=0): rw=write, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randwrite: (g=0): rw=write, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+
+randwrite: (groupid=0, jobs=64): err= 0: pid=122634
+  write: io=193472KB, bw=1610.8KB/s, iops=402 , runt=120113msec
+    clat (msec): min=3 , max=9663 , avg=158.87, stdev=619.46
+     lat (msec): min=3 , max=9663 , avg=158.87, stdev=619.46
+    bw (KB/s) : min=    0, max=  267, per=2.61%, avg=42.04, stdev=44.61
+  cpu          : usr=0.00%, sys=0.03%, ctx=49059, majf=0, minf=1986
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued r/w/d: total=0/48368/0, short=0/0/0
+
+     lat (msec): 4=0.01%, 10=0.23%, 20=8.57%, 50=55.89%, 100=7.98%
+     lat (msec): 250=17.35%, 500=7.65%, 750=0.07%, >=2000=2.25%
+
+Run status group 0 (all jobs):
+  WRITE: io=193472KB, aggrb=1610KB/s, minb=1649KB/s, maxb=1649KB/s, mint=120113msec, maxt=120113msec
+
+Disk stats (read/write):
+  rbd1: ios=295/48194, merge=0/0, ticks=8364/7656628, in_queue=7676940, util=100.00%
+finish seqwrite

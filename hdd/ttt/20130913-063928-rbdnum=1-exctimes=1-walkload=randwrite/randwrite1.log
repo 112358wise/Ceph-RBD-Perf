@@ -1,0 +1,12 @@
+start randwrite
+filename = /dev/rbd0
+randwrite: (g=0): rw=randwrite, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+...
+randwrite: (g=0): rw=randwrite, bs=4K-4K/4K-4K, ioengine=sync, iodepth=1
+fio 1.59
+Starting 64 processes
+randwrite: Laying out IO file(s) (1 file(s) / 30720MB)
+
+
+Run status group 0 (all jobs):
+finish randwrite

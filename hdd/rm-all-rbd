@@ -1,0 +1,6 @@
+rbd unmap /dev/rbd0
+rbd unmap /dev/rbd1
+rbd unmap /dev/rbd2
+rbd rm rbd-image0
+rbd rm rbd-image1
+rbd rm rbd-image2
